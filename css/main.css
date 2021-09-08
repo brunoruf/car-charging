@@ -1,0 +1,126 @@
+body {
+    font-family: 'JetBrains Mono', sans-serif;
+    overflow-x:hidden;
+}
+
+body ::selection {
+    background: #AB29E8;
+    color: #FFF;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-home {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-home-menu {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.header-home-menu:hover {
+    color: #07D78D;
+}
+
+.header-home ul {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header-home li {
+    padding: 0px 12px;
+    color: #FFF;
+}
+
+.banner-home-zaz {
+    max-width: 1200px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.banner-home {
+    background-color: #2b2a33;
+    margin-top: 0;
+    height: 580px;
+    position: relative;
+}
+
+.banner-home-text {
+    width: 48%;
+    position: absolute;
+    right: 0;
+    top: 34%;
+    transform: translateY(-50%);
+}
+
+.banner-home-text p {
+    margin-top: 20px;
+}
+
+.shortcuts-home {
+    position: absolute;
+    bottom: 0;
+}
+
+.shortcuts-home ul {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    max-width: 100%;
+}
+
+.shortcuts-home li {
+    height: 88px;
+    border: 1px solid #FFF;
+    line-height: 88px;
+    text-align: center;
+    margin-left: -1px;
+}
+
+.shortcuts-home li:hover {
+    background-color: rgba(7, 215, 142, 0.247);
+}
+
+.shortcuts-home a {
+    text-decoration: none;
+    color: #FFF;
+    width: 100%;
+}
+
+.contact-home {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contact-home p {
+    margin: 20px 0 32px 0;
+}
+
+footer {
+    background-color: #F8F8F8;
+    margin-top: 120px;
+    display: flex;
+    height: 56px;
+    padding-top: 24px;
+}
+
+.socialmedia {
+    display: flex;
+}
+
+.socialmedia img {
+    margin-left: 16px;
+}

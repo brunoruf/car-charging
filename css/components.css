@@ -1,0 +1,138 @@
+/* COLORS */
+
+.color-primary-100 {
+    color: #BCF0DE;
+}
+
+.color-primary-300 {
+    color: #77E8BF;
+}
+.color-primary-500 {
+    color: #07D78D;
+}
+
+.color-primary-700 {
+    color: #0ABD7D;
+}
+
+.color-primary-900 {
+    color: #007E51;
+}
+
+.color-neutral-grey-100 {
+    color: #f8f8f8 ;
+}
+
+.color-neutral-grey-300 {
+    color: #E4E4E4;
+}
+
+.color-neutral-grey-500 {
+    color: #B0B0B0;
+}
+
+.color-neutral-grey-700 {
+    color: #757575;
+}
+
+.color-neutral-grey-900 {
+    color: #4b4b4b;
+}
+
+.color-neutral-black {
+    color: #000;
+}
+
+.color-neutral-white {
+    color: #FFF;
+}
+
+.color-neutral-darkblue {
+    color: #242a33;
+}
+
+
+/* BUTTONS */
+
+.button-primary-large {
+    height: 48px;
+    padding: 0 24px;
+    background-color: #07D78D;
+    color: #242a33;
+    background-color: #07D78D;
+    font-family: 'JetBrains Mono', sans-serif;
+    font-size: 1rem;
+    line-height: 48px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-primary-medium {
+    height: 40px;
+    padding: 0 24px;
+    color: #242a33;
+    background-color: #07D78D;
+    font-family: 'JetBrains Mono', sans-serif;
+    font-size: 1rem;
+    line-height: 40px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-primary-medium:hover {
+    height: 40px;
+    padding: 0 24px;
+    color: #242a33;
+    background-color: #0ABD7D;
+    font-family: 'JetBrains Mono', sans-serif;
+    font-size: 1rem;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+
+/* TYPOGRAPHY */
+
+.heading-1 {
+    font-family: 'JetBrains Mono', sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.heading-2 {
+    font-family: 'JetBrains Mono', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 40px;
+}
+
+
+
+.paragraph-big {
+    font-family: 'JetBrains Mono', sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 28px;
+}
+
+.paragraph-regular {
+    font-family: 'JetBrains Mono', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+.paragraph-small {
+    font-family: 'JetBrains Mono', sans-serif;
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 20px;
+}
+
+.caption {
+    font-family: 'JetBrains Mono', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    line-height: 20px;
+}
+
