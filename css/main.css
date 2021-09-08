@@ -39,7 +39,20 @@ body ::selection {
 .header-home li {
     padding: 0px 12px;
     color: #FFF;
+    list-style-type: none;
 }
+
+#background-video {
+    width: 100vw;
+    height: 580px;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
 
 .banner-home-zaz {
     max-width: 1200px;
@@ -49,7 +62,6 @@ body ::selection {
 }
 
 .banner-home {
-    background-color: #2b2a33;
     margin-top: 0;
     height: 580px;
     position: relative;
