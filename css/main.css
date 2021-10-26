@@ -54,7 +54,9 @@ body ::selection {
   margin-top: 0;
   height: 580px;
   position: relative;
-  background-color: black;
+  background-image: url(../img/Home/banner-home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .banner-home-text {
@@ -188,7 +190,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 112px auto;
+  margin: 112px auto 40px auto;
 }
 
 .solution-item {
@@ -250,7 +252,7 @@ footer {
   width: 566px;
   padding: 32px;
   height: 100%;
-  background-image: url("http://via.placeholder.com/566x300");
+  background-image: url("../img/About/about-tellus.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
