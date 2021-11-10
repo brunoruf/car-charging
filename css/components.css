@@ -115,9 +115,23 @@ a {
 
 .heading-3 {
   font-family: "JetBrains Mono", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1.5rem;
   line-height: 32px;
+}
+
+.heading-4 {
+  font-family: "JetBrains Mono", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 24px;
+}
+
+.heading-5 {
+  font-family: "JetBrains Mono", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 20px;
 }
 
 .paragraph-big {
@@ -125,7 +139,7 @@ a {
   font-weight: 300;
   font-size: 1.25rem;
   line-height: 32px;
-  margin: 20px 0;
+  margin: 20px 0 12px 0;
 }
 
 .paragraph-regular {
@@ -149,6 +163,10 @@ a {
   font-weight: 300;
   font-size: 0.75rem;
   line-height: 20px;
+}
+
+.italic {
+  font-style: italic;
 }
 
 /* FORMS */
@@ -179,4 +197,15 @@ a {
   padding: 8px;
   resize: none;
   box-sizing: border-box;
+}
+
+/*
+
+@media only screen and (max-width: 600px) {
+  .heading-2 {
+    font-family: "JetBrains Mono", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
 }

@@ -16,6 +16,22 @@ body ::selection {
   position: relative;
 }
 
+#open-menu {
+  display: none;
+}
+
+#menu-mobile {
+  display: none;
+}
+
+.header-menu-mobile {
+  display: none;
+}
+
+.header-menu-mobile-close {
+  margin: none;
+}
+
 .header-home {
   padding-top: 20px;
   display: flex;
@@ -295,6 +311,7 @@ footer {
 .contact-areas-links {
   height: 30px;
   margin-bottom: 20px;
+  align-items: center;
 }
 
 .contact-icons {
@@ -360,4 +377,314 @@ footer {
 .maintenance-products {
   display: block;
   padding-top: 100px;
+}
+
+.products {
+  position: relative;
+  margin-top: 120px;
+}
+
+.products-class ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 20px 0;
+}
+
+.products-class li {
+  padding: 12px 32px;
+  border: 1px solid #000;
+}
+
+.products-class li:nth-child(2),
+.products-class li:nth-child(3) {
+  margin-left: -1px;
+}
+
+.products-class li:hover {
+  background-color: #bcf0de;
+  cursor: pointer;
+}
+
+.products-class-active {
+  background-color: #07d78d;
+}
+
+.products-container {
+  width: 100%;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-on-list {
+  width: 298px;
+  border: 1px solid #000;
+  margin: 0;
+  padding: 0;
+  margin-left: -1px;
+}
+
+.product-on-list:hover {
+  cursor: pointer;
+}
+
+.product-on-list:hover p {
+  background-color: #07d78d;
+  color: #000;
+  cursor: pointer;
+}
+
+.product-on-list:nth-child(1) {
+  margin-left: 1px;
+}
+
+.product-on-list p {
+  background-color: #000;
+  padding: 12px;
+  margin: 0;
+  border-right: 1px solid #fff;
+  min-height: 48px;
+}
+
+.product-on-list img {
+  margin: 16px;
+}
+
+.product-page-container-product {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.product-page-gallery {
+  max-width: 460px;
+}
+
+.product-page-gallery-image {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000;
+}
+
+.product-page-gallery-thumbs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1px;
+}
+
+.product-page-gallery-thumb {
+  max-width: 20%;
+  border: 1px solid #000;
+  padding: 8px;
+  margin-top: -1px;
+  margin-left: -1px;
+}
+
+.product-page-gallery-thumb img {
+  width: 100%;
+}
+
+.product-page-information {
+  margin-left: 24px;
+  width: 100%;
+}
+
+.product-page-information h2 {
+  margin-bottom: 8px;
+}
+
+.product-page-information ul li {
+  list-style-image: url("../img/icons/bullet.svg");
+  margin: 0 0 12px 20px;
+}
+
+.product-page-sidebar {
+  width: 20%;
+  background-color: #ccc;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-home ul {
+    display: none;
+  }
+
+  .header-home a {
+    display: none;
+  }
+
+  .banner-home {
+    height: 440px;
+    background-image: url(../img/Home/banner-home-mobile3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .banner-home-text {
+    margin-top: 44px;
+    padding: 0px 20px;
+    width: 80%;
+  }
+
+  .header-menu-mobile {
+    display: flex;
+  }
+
+  .header-menu-mobile-close {
+    display: block;
+    margin: 20px;
+  }
+
+  footer {
+    display: block;
+    margin-top: 60px;
+    height: 120px;
+  }
+
+  .socialmedia {
+    margin: 20px 0px;
+  }
+
+  .shortcuts-home {
+    display: none;
+  }
+
+  .contact-home {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .heading-2.color-neutral-white.heading-2-home {
+    font-family: "JetBrains Mono", sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 40px;
+  }
+
+  .banner-home-text > .paragraph-big {
+    font-family: "JetBrains Mono", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 32px;
+  }
+
+  .container.header-home-intern ul {
+    display: none;
+  }
+
+  .container.header-home-intern > .button-primary-medium {
+    display: none;
+  }
+
+  .about-banner-container {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .about-banner-container img {
+    display: none;
+  }
+
+  .about-banner-text {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 0;
+    padding-bottom: 30px;
+  }
+
+  .about-content {
+    display: block;
+  }
+
+  .about-tellus {
+    margin-top: 40px;
+    width: 80%;
+  }
+
+  .solution-item {
+    padding: 24px 0;
+  }
+
+  .contact-areas {
+    display: block;
+    margin-top: 120px;
+  }
+
+  .contact-areas-information {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .contact-areas-links a {
+    font-size: 1em;
+  }
+
+  .contact-areas-links img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .contact-areas-form {
+    width: 100%;
+  }
+
+  #menu-mobile {
+    display: none;
+    z-index: 9999;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+  }
+
+  #menu-mobile ul {
+    text-align: center;
+  }
+
+  #menu-mobile li {
+    padding: 20px 0;
+    font-size: 1.25em;
+  }
+
+  #menu-mobile a {
+    color: #fff;
+  }
+
+  #menu-mobile hr {
+    border: 1px solid #1b1b1b;
+  }
+
+  #menu-mobile h1 {
+    display: block;
+    width: 50%;
+    margin: 24px 30px 20px auto;
+  }
+
+  #open-menu {
+    display: block;
+  }
+
+  .products-class li {
+    margin: 0;
+    padding: 8px;
+    margin-top: -1px;
+    width: 100%;
+  }
+
+  .product-on-list {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .product-on-list img {
+    display: block;
+    padding: 0;
+    margin: 10px auto;
+  }
 }
